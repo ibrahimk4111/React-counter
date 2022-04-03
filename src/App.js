@@ -22,8 +22,6 @@ function Users() {
     setCounter(counter - 1);
   }
 
- 
-
   return (
     <div className="counterDiv">
       <button onClick={handleIncrease}>Increase</button>
@@ -33,3 +31,5 @@ function Users() {
     </div>
   );
 }
+
+//Easiest way to make a counter
